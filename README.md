@@ -1,18 +1,18 @@
 # Web-Application-Design
 
-#Project work of 2
+Project work of 2
 
 This is a web portal for movie village “Cine” online ticket booking. With this webpage, customer/staff will be able to view the current movie information, check screening schedule, book the tickets online and select their seats. Cine (client-side) contains 8 main pages, namely: (1) Home Page (2) Movie Screening Schedule Page (3) Seat Selection Page (4) Payment Page (5) Confirmation Page (6) Member Sign-up Page (7) About Us Page (8) Contact Us Page. Meanwhile, Cine (admin-side) contains 5 pages, individually: (1) Admin page (2) Update movie page (3) Update timeslot page (4) Update price page (5) Update carousel information page.  
 
-#Customer can sign up to enjoy member promotion price. 
-#Customer can see recent highlights on Homepage carousel.  
-#Customers can view a table of movies both on show and coming soon in the home page. They can also quick purchase if no further information browsing is needed. 
-#Customer can view more details of a specific movie in an individual page, including cast, photos and synopsis and can also view its schedule. 
-#Customers can view the schedule of screening for all movies for future days. 
-#A customer can make multiple bookings in order of his/her preference. 
-#A customer can select her preferred seats for a specific movie. 
-#Upon confirmation of the final booking, an email acknowledgement on the booking details will be sent to the customer via email. 
-#Customers can find more information about Cine by browsing “about us” page and contact us page. 
+Customer can sign up to enjoy member promotion price. \n
+Customer can see recent highlights on Homepage carousel.  
+Customers can view a table of movies both on show and coming soon in the home page. They can also quick purchase if no further information browsing is needed. /n
+Customer can view more details of a specific movie in an individual page, including cast, photos and synopsis and can also view its schedule. 
+Customers can view the schedule of screening for all movies for future days. 
+A customer can make multiple bookings in order of his/her preference. 
+A customer can select her preferred seats for a specific movie. 
+Upon confirmation of the final booking, an email acknowledgement on the booking details will be sent to the customer via email. 
+Customers can find more information about Cine by browsing “about us” page and contact us page. 
 
 Common PHP file used; Functionality
 Header	Including Cine logo membership sign-up function, and greeting.
