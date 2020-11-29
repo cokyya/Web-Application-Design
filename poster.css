@@ -1,0 +1,66 @@
+.poster-container {
+	height: 380px;
+	width: 265px;
+	perspective: 600px;
+	position: relative;
+	display: inline-block;
+	margin: 40 40;
+}
+.homeposter {
+	height: 100%;
+	position: absolute;
+	transition: all 1s ease-in-out;
+	width: 100%;
+}
+.homeposter:hover .side{
+	opacity: 0.3;
+	
+}
+.homeposter:hover .back {
+	opacity: 1;
+	
+}
+.homeposter .side {
+	backface-visibility: hidden;
+	border-radius: 6px;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+	transition: .5s ease;
+	opacity: 1;
+}
+.homeposter .back {
+	height: 100%;
+	width: 100%;
+	top: 50%;
+  	left: 50%;
+	position: absolute;
+	transition: .5s ease;
+  	opacity: 0;
+  	transform: translate(-50%, -50%);
+	background-color: rgba(192,192,192,0.3);
+}
+.buyTicketBtn{
+	display: inline-block;
+	width: 120px;
+	margin-top: 170px;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 5 5;
+	border-radius: 12px;
+	border: 1px solid #ffcc00;
+}
+.homeposter .buyTicketBtn:hover {
+	color: #000000;
+	border-color: #ffcc00;
+	background-color: #ffcc00;
+}
+.moviename {
+	cursor: default;
+	display: inline-block;
+	color: #FFFFFF;
+	margin-top: 395px;
+}
